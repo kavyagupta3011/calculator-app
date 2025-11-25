@@ -15,7 +15,7 @@ pipeline {
                   branches: [[name: '*/main']],
                   userRemoteConfigs: [[
                     url: 'https://github.com/kavyagupta3011/calculator-app.git',
-                    credentialsId: 'github-creds'
+                    credentialsId: 'github-creds2'
                   ]]
                 ])
             }
